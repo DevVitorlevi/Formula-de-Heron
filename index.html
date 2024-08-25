@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula de Heron</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formula de Heron</h1>
+    <div class="container">
+        <form>
+            <p>
+                <label for="ladoa"> Lado A
+                    <input type="number" name="lado" id="ladoa" placeholder="Ex:3">
+                </label>
+            </p>
+            <p>
+                <label for="ladob"> Lado B
+                    <input type="number" name="lado" id="ladob" placeholder="Ex:4">
+                </label>
+            </p>
+            <p>
+                <label for="ladoc"> Lado C
+                    <input type="number" name="lado" id="ladoc" placeholder="Ex:5">
+                </label>
+            </p>
+            <input type="button" value="Calcular" onclick="Calcular()" id="button">
+            <input type="button" value="Limpar" onclick="Limpar()" id="button">
+        </form>
+        <img src="img/download.png" alt="" style="width: 200px;">
+        <div class="res">Resultado:</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

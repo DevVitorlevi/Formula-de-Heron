@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+body{
+    background-image: url(img/Windows-11-Dark-Purple-Abstract-Waves-4K-Wallpaper-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 92vh;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+.container{
+    backdrop-filter: blur(5px);
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid #ffffff98;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 8px 4px 70px #000000;
+
+}
+input{
+    margin-bottom: 10px;
+    border-radius: 15px;
+  
+    font-size: 20px;
+    padding: 8px;
+    background: transparent;
+    color: #fffffffd;
+    border: 2px solid #ffffff ;
+    width: 250px;
+}
+
+#button{
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 25px;
+    padding: 6px;
+    width: 120px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #000000;
+    margin-left: 22px;
+}
+img{
+    background-color: #f5f5f5e3;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+}
+label{
+    font-size: 20px;
+}
+button:hover{
+    border: 1px solid #ffffff ;
+    background: transparent;
+    color: #ffffff;
+    transition: ease-in-out 0.4s;
+}
+input::placeholder{
+    color: #ffffff;
+    text-indent: 15px;
+    font-size: 20px;
+}
+.res{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
